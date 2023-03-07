@@ -16,7 +16,7 @@ def All_Initialization():
     """, unsafe_allow_html=True)
     choice1 =  st.sidebar.selectbox(" ",('Home','About Us'))
     choice2 =  st.sidebar.selectbox(" ",('Libraries in Scope','OpenAI','Pandas','Streamlit','OS','Json'))
-    choice3 =  st.sidebar.selectbox(" ",('Models Used','ChatGPT(gpt-3.5-turbo)', 'GPT3 - Davinci','GPT3 - Ada','GPT3 - Babbage'))
+    choice3 =  st.sidebar.selectbox(" ",('Models Used','ChatGPT(GPT-3.5-turbo)', 'GPT3 - Davinci','GPT3 - Ada','GPT3 - Babbage'))
     menu = ["Google Cloud Services in Scope","Cloud Storage", "Cloud Run", "Cloud Function", "Secret Manager"]
     choice = st.sidebar.selectbox(" ",menu)
     st.sidebar.write('')
